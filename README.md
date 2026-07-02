@@ -64,7 +64,9 @@ Avec pgAdmin :
 ### 4. Configurer la connexion à la base de données
 
 Ouvrir le fichier database.py et renseigner votre mot de passe PostgreSQL dans la variable password de la fonction get_connection().
+Créer un fichier `.env` à la racine du projet, contenant :
 
+DB_PASSWORD=votre_mot_de_passe_postgresql
 ### 5. Lancer l'application
 
 ```bash
